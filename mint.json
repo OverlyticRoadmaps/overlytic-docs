@@ -1,0 +1,127 @@
+{
+  "name": "Overlytic",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#673AB7",
+    "light": "#9C6FE4",
+    "dark": "#3C3489"
+  },
+  "topbarLinks": [
+    {
+      "name": "Sign in",
+      "url": "https://app.overlytic.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get started free",
+    "url": "https://overlytic.com"
+  },
+  "anchors": [
+    {
+      "name": "Home",
+      "icon": "house",
+      "url": "https://overlytic.com"
+    },
+    {
+      "name": "Status",
+      "icon": "signal",
+      "url": "https://overlytic.com"
+    },
+    {
+      "name": "Contact",
+      "icon": "envelope",
+      "url": "mailto:hello@overlytic.com"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting started",
+      "pages": [
+        "getting-started/what-is-overlytic",
+        "getting-started/quick-start",
+        "getting-started/key-concepts"
+      ]
+    },
+    {
+      "group": "Workspace",
+      "pages": [
+        "workspace/users-and-roles",
+        "workspace/sso-setup",
+        "workspace/settings"
+      ]
+    },
+    {
+      "group": "Roadmap",
+      "pages": [
+        "roadmap/creating-a-roadmap",
+        "roadmap/views",
+        "roadmap/swimlanes-and-bars",
+        "roadmap/milestones-and-launches",
+        "roadmap/dependencies",
+        "roadmap/project-lifetime"
+      ]
+    },
+    {
+      "group": "Ideas & Strategy",
+      "pages": [
+        "ideas-and-strategy/idea-board",
+        "ideas-and-strategy/strategy-goals",
+        "ideas-and-strategy/backlog-alignment"
+      ]
+    },
+    {
+      "group": "Scenarios",
+      "pages": [
+        "scenarios/budget-modelling",
+        "scenarios/committing-to-roadmap"
+      ]
+    },
+    {
+      "group": "Finance",
+      "pages": [
+        "finance/budget-setup",
+        "finance/vendor-tracking"
+      ]
+    },
+    {
+      "group": "Tracking",
+      "pages": [
+        "tracking/logging-time",
+        "tracking/vendor-hours"
+      ]
+    },
+    {
+      "group": "Heatmaps",
+      "pages": [
+        "heatmaps/delivery-risk",
+        "heatmaps/dependencies",
+        "heatmaps/effort-vs-progress",
+        "heatmaps/launch-readiness",
+        "heatmaps/custom-heatmap"
+      ]
+    },
+    {
+      "group": "Reports",
+      "pages": [
+        "reports/generating-a-report",
+        "reports/scheduling-delivery",
+        "reports/pdf-export"
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/jira",
+        "integrations/azure-devops",
+        "integrations/coming-soon"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "linkedin": "https://linkedin.com/company/overlytic"
+  }
+}

@@ -1,0 +1,10 @@
+---
+title: 'Dependencies'
+description: 'Link roadmap items to show blocking relationships and surface dependency risk.'
+---
+
+Dependencies let you mark one roadmap item as blocking or blocked by another. Draw a dependency by hovering over a bar until the connection handle appears, then dragging to the target bar.
+
+Overlytic automatically calculates dependency chain risk: if a blocking item is itself at high delivery risk, the risk propagates to all items waiting on it. This surfaces in both the Dependencies heatmap and in generated reports.
+
+You can mark dependencies as internal (within the same roadmap) or external (across roadmaps or to a third-party system). External dependencies show a warning icon when the external item has not been updated recently.
